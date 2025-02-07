@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+.header{
+    background-image: url(../HTML/media/image/header-food-im.jpeg);
+    width:100%;
+    height:430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a1{
+    margin-left: 240px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.a2{
+    margin-left: 410px;
+    margin-top: 15px;
+}
+.a1 a{
+    font-weight:normal;
+    color: white;
+    text-decoration: none;
+    font-family: "helvetica";
+    color: rgba(255, 255, 255, 0.847);
+}
+.a1 i{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.847);
+}
+
+.a2 a{
+    color: rgba(255, 255, 255, 0.847);
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: "helvetica";
+    cursor: pointer;
+    
+}
+.head-modify{
+    display: flex;
+}
+.zomato-image{
+    position: absolute;
+    left: 370px;
+    top: 3px;
+}
+.zomato-image img{
+    height: 60px;
+    /* width: 200px; */
+    margin-top: 100px;
+    margin-left: 235px;
+}
+.zomato-image p{
+    color:white;
+    font-size: 35px;
+    font-family:"PT Sans";
+    padding-top: 25px;
+    margin-left: 70px;
+}
+.zomato-image select{
+    padding-left: 34px;
+    width: 220px;
+    height: 55px;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 30px;
+    margin-left: 31px;
+    /* border: none; */
+}
+
+.zomato-image input{
+    position: absolute;
+    left: 250px;
+    width: 457px;
+    height: 48px;
+    margin-top: 31px;
+    background-color: white;
+    border:solid white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+
+.input-modify{
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+.font-modify{
+    font-size: 15px;
+    color:rgb(131, 118, 118);
+}
+
+
+.location-icon-modify{
+    position: absolute;
+    left: 39px;
+    bottom: 13px;
+    font-size: 23px;
+    color: rgb(230, 114, 114);
+}
+.search-icon-modify{
+    position: absolute;
+    left:265px ;
+    top: 280px;
+    font-size: 20px;
+    color:rgb(131, 118, 118);
+}
+
+.section1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mid-container1{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    justify-content: space-around;
+}
+
+.features{
+    overflow: hidden;
+    font-family: "pt sans";
+    border-radius: 20px;
+    /* text-align: center; */
+    border: 0.1px solid gray;
+}
+.features p{
+    font-weight: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: grey;
+    
+}
+.features h3{
+    font-weight:100;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.features-of-image{
+    width: 340px;
+    height: 170px;
+    overflow: hidden;
+
+}
+.features-of-image img{
+    width: 100%;
+    background-position: 100px;
+    /* object-fit: cover; */
+}
+
+.mid-container2{
+    margin-top: 100px;
+}
+.collection{
+    display:inline-block;
+}
+
+.collection p{
+    margin-left: 230px;
+    font-size:20px;
+    color: gray;
+}
+.collection h1{
+    margin-left: 230px;
+    font-size: 40px;
+    font-family: "pt sans";
+    font-weight: 100;
+}
+
+.collection-container a{
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+    font-family: "pt sans";
+    color: rgb(218, 89, 89);
+    
+}
+
+.collection-mid-image{
+    display: flex;
+    margin:40px;
+    justify-content: center;
+}
+
+.mid-image1 img,.mid-image2 img,.mid-image3 img,.mid-image4 img{
+    width: 260px;
+    height: 320px;
+    padding-left: 20px;
+}
+
+.mid-para{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    color: white;
+    font-family: "pt sans";
+    font-size: 20px;
+}
+.img1{
+    border-radius: 15px;
+}
+.img2{
+    border-radius: 15px;
+}
+.img3{
+    border-radius: 15px;
+}
+.img4{
+    border-radius: 15px;
+}
+
+
+.section3 h1{
+    font-size: 40px;
+    font-family: "pt sans";
+    margin-left: 230px;
+    font-weight: 100;
+
+}
+.grid-class{
+    display: flex;
+    justify-content: center;
+    margin-left:90px ;
+    /* grid-template-columns: auto auto auto;
+    grid-template-areas: "one two three" "four five six" "seven eight nine"; */
+    
+}
+.grid-class div{
+    margin-left: 10px;
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    background-color: whitesmoke;
+    border:  grey;
+    margin-top: 10px;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 15px;
+    font-family: "pt sans";
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+#nine{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    background-color: whitesmoke;
+    border:  grey;
+    margin-top: 10px;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    font-family: "pt sans";
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.angle-right-icon i{
+    position: absolute;
+}
+
+#A{
+    right: 940px;
+    top: 1490px;
+}
+
+#B{
+    right: 540px;
+    top: 1490px;
+}
+#C{
+    right: 140px;
+    top: 1490px;
+}
+#D{
+    right: 940px;
+    top: 1590px;
+}
+
+#E{
+    right: 540px;
+    top: 1590px;
+}
+#F{
+    right: 940px;
+    top: 1590px;
+}
+#G{
+    right: 140px;
+    top: 1590px;  
+}
+#H{
+    right: 940px;
+    top: 1690px;
+}
+#I{
+    right: 540px;
+    top: 1690px;
+}
+
+#J{
+    right: 230px;
+    top: 1690px;   
+}
+.last-container{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 600px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.last-inside-div{
+    padding-top: 50px;
+    padding-left: 900px;
+}
+.last-inside-div h1{
+    font-family: "pt sans";
+    font-size: 50px;
+    font-weight: 100;
+}
+.last-inside-div p{
+    font-family: "pt sans";
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 30px;
+}
+input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 1.5em;
+    accent-color: red;
+    cursor: pointer;
+}
+
+.input2{
+    margin-left: 90px;
+}
+
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(75, 71, 71);
+}
+
+
+.Email-input-mod{
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove ;
+}
+.last-inside-input input{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    
+}
+button{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-family: "pt sans";
+    
+}
+.button-modify{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color:red;
+    color: white;
+    font-weight:lighter;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+    margin-left: 10px;  
+}
+
+button:hover{
+    
+    transform: scale(1.05);
+}
+.section4{
+    margin-right: 100px;
+    margin-left: -200px;
+}
+
+.last-inside-input{
+    padding-top: 20px;
+    padding-left: 910px;
+}
+
+#im1{
+    margin-right: 30px;
+}
+
+.mobile-view-img{
+    position: absolute;
+    left: 240px;
+    bottom: -1550px;
+}
+
+.mobile-view-img img{
+    width: 400px;
+    height: 450px;
+}
+
+.h1-tag {
+    margin-left: 200px;
+    font-family: "pt sans";
+    font-size: 23px;
+}
+
+#select1{
+    margin-top: 20px;
+    width: 1110px;
+    height: 70px;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: "pt sans";
+    font-style: normal;
+    color: rgb(67, 62, 62);
+}
+
+
+#select2{
+    margin-top: 20px;
+    width: 1110px;
+    height: 70px;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: "pt sans";
+    font-style: normal;
+    color: rgb(67, 62, 62);
+}
+
+#select3{
+    margin-top: 20px;
+    width: 1110px;
+    height: 70px;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: "pt sans";
+    font-style: normal;
+    color: rgb(67, 62, 62);
+}
+
+#select4{
+    margin-top: 20px;
+    width: 1110px;
+    height: 70px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "pt sans";
+    font-style: normal;
+    color: rgb(67, 62, 62);
+}
+
+.section6 {
+    background-color:whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.img-tag1 img{
+    width: 150px;
+    height: 27px;
+    color: black;
+}
+
+.section6-div{
+    margin-left: 200px;
+    padding-top: 80px;
+}
+.img-tag1 select{
+    width: 110px;
+    height: 35px;
+    font-size: 20px;
+    
+   
+
+}
+
+#s1{
+    padding-left: 43px;
+    margin-left: 725px;
+    border-radius: 5px;
+}
+
+#s2{
+    padding-left: 23px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.img-tag2 img{
+    position: relative;
+    width: 30px;
+    left: 890px;
+    top: -30px;
+      
+}
+.img-tag3{
+    position: relative;
+    margin-left: 1014px;
+    top: -56px;
+}
+
+
+
+.common-font{
+    font-family: "pt sans";
+    color: rgb(94, 88, 88);
+}
+
+.about-zomato a{
+    text-decoration: none;
+    font-family: "pt sans";
+    color: rgb(94, 88, 88);
+    
+}
+
+.ZOMVERSE{
+    margin-left: 250px;
+    margin-top: -290px;
+}
+
+.FOR-RESTAURANTS{
+    margin-left: 470px;
+    margin-top: -290px;
+
+}
+
+.LEARN-MORE{
+    margin-left: 740px;
+    margin-top: -100px;
+}
+
+.SOCIAL-LINKS{
+    margin-left: 940px;
+    margin-top: -140px;
+}
+
+.icons-class{
+    margin-right: 10px;
+}
+.icons-class i{
+    padding-right: 10px;
+}
+.icons-class img{
+    margin-top: 20px;
+    height: 40px;
+}
+.line{
+    margin-top: 180px;
+}
+
+.foot{
+    margin-top: 25px;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
